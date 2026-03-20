@@ -45,6 +45,12 @@ public class Persona {
         this.edad = edad;
         this.cedula = cedula;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", cedula=" + cedula + '}';
+    }
+    
     
     
 }
